@@ -1,0 +1,25 @@
+Projects using HTML CSS JS
+==============================
+1. Instagram Profile Page Clone
+2. Instagram Bio link Page
+3. Instagram Post card design Clone
+4. Facebook Page Clone
+5. LinkedIn Profile page clone
+6. single page website
+7. sticky header design
+8. responsive nav menu bar design
+9. footer design
+10. Personal Blog design
+11. create own chrome extention
+12. YouTube clone
+13. contact form design with validation
+14. Profile card design
+15. Responsive Time Line 
+16. Responsive hero slider
+17. Make 3D flip card
+18. Price Table
+19. Responsive side bar menu
+20. CURD App
+21. Menu order Billing
+22. 
+

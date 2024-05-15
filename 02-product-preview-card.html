@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Preview Card</title>
+    <style>
+        body{
+            background-color: #ddd;
+        }
+        .container{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+        }
+        .product-img{
+            background-image: url(./download.jpeg);
+            height: 200px;
+            width: 250px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+        }
+        .product-text{
+            padding: 15px;
+            #category{
+                font-size: 12px;
+                text-transform: uppercase;
+                font-weight: 200;
+                letter-spacing: 4px;
+            }
+            h2{
+                margin: 0;
+                font-size: 28px;
+                font-weight: 800;
+            }
+            #price{
+                margin: 0;
+                color: rgb(3, 100, 99);
+                font-size: 32px;
+                font-weight: bold;
+                span{
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-decoration: line-through;
+                }
+            }
+        }
+        button{
+            margin-top: 10px;
+            background-color: rgb(3, 100, 99);
+            padding: 14px 72px;
+            color: #fff;
+            font-weight: 700;
+            border-radius: 14px;
+        }
+        @media screen and (min-width: 480px){
+            .container{
+                display: flex;
+                border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            align-items: center;
+            }
+            .product-img{
+                width: 400px;
+                height: 400px;
+                border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            }
+            .product-text{
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="product-img">
+
+        </div>
+        <div class="product-text">
+            <p id="category">perfume</p>
+            <h2>Gabrielle Essence Eau De Parfum</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p id="price">$149.99 <span>$169.99</span></p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
